@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/frame"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:paddingLeft="55dp"
+        android:text="Selamat Datang"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:paddingLeft="55dp"
+        android:text="Silahkan Login Kembali"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/gambarakun"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="9dp"
+            android:src="@drawable/ic_baseline_account_circle_24"/>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="370dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/gambarpassulang"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="9dp"
+        android:src="@drawable/ic_baseline_lock_24"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/login"
+        android:background="@drawable/bt2"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="444dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/regis"
+        android:background="@drawable/bt3"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="560dp"
+        android:layout_height="wrap_content"
+        android:text="Registrasi"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="520dp"
+       android:text="Datang sebagai tamu klik disini"/>
+
+</RelativeLayout>

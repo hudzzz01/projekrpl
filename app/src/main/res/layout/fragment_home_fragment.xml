@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="main.jnakshansh.bottomnavigationbar.Home_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+<ImageView
+    android:id="@+id/banner"
+    android:layout_width="411dp"
+    android:layout_marginTop="55dp"
+    android:background="@drawable/banner"
+    android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/banner"
+        android:text="Home Fragment"
+        android:gravity="center"/>
+
+</RelativeLayout>

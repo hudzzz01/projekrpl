@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frame"
+    android:orientation="vertical"
+    tools:context=".RegistrasiActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:paddingLeft="43dp"
+        android:text="Gabung Sekarang."
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:paddingLeft="45dp"
+        android:text="Buat Akun Untuk Melanjutkan"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/gambarakun"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="9dp"
+            android:src="@drawable/ic_baseline_account_circle_24"/>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:hint="Username Max 16ch"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/checkUname"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="check"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linierpass"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/gambarpass"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="9dp"
+            android:src="@drawable/ic_baseline_lock_24"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:hint="Password Max 16 ch"
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linierulangpass"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="405dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/gambarpassulang"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="9dp"
+            android:src="@drawable/ic_baseline_lock_24"/>
+
+        <EditText
+            android:id="@+id/passwordulang"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:hint="Ulangi Password"
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/liniernoTelp"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@+id/gambartelepon"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="9dp"
+            android:src="@drawable/ic_baseline_local_phone_24"/>
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:hint="Nomor Telepon Max 14 DIGIT"
+            android:inputType="phone" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linieremail"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="515dp"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@+id/gambaremail"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="9dp"
+            android:src="@drawable/ic_baseline_email_24"/>
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:hint="Email Max 16 CH"
+            android:inputType="textEmailAddress" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/buatakun"
+        android:background="@drawable/bt2"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="580dp"
+        android:layout_height="wrap_content"
+        android:text="Buat Akun"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"
+        />
+
+</RelativeLayout>
