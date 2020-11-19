@@ -33,6 +33,7 @@ public class RegistrasiActivity extends AppCompatActivity {
     ProgressDialog progressDialog;
     LinearLayout pas,ulpas,noTelpp,emaill;
     boolean visibility = false;
+    //test registrasi
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
